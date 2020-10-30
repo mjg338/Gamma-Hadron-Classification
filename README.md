@@ -8,8 +8,8 @@ The images produced provide several dimensions for analysis and discernment betw
 
 To do this I employed several classification models from sklearn, finding the random forest classifier to outperform all other models in this case by a wide margin. I then looked over relevant research papers to find means of creating additional features from the intial 10. I find and implement 3 such derivations, improving the metric scores of my model accross the board. 
 
-In the end I achieved a true positive rate for Gammas of 94%, and a true positive rate for Hadrons of 81%. I consider this a fairly successful model, as the Gammas accounted for 65% of my data, and the Hadrons 35%. The 10-fold cross validation score was also just under 89%.
+In the end I achieved a true positive rate for Gammas of 94%, and a true positive rate for Hadrons of 81%. I consider this a fairly successful model, as the Gammas accounted for 65% of my data, and the Hadrons 35%. The 10-fold cross validation score was also just under 89%, suggesting the model is reasonably well fit.
 
 Despite considerable efforts in hyperparameter optimization, the only measure that seemed to improve model performance beyond the default setting was for tree count. This was suggested in one study, and observed here, to optimize at 50 trees. 
 
-To improve this model further, I would look through the research to see what else could be found on attribution creation.
+To improve this model further, I would purchase more data and research with the express hope of finding more on attribution creation.
