@@ -10,6 +10,8 @@ To do this I employed several classification models from sklearn, finding the ra
 
 In the end I achieved a true positive rate for Gammas of 94%, and a true positive rate for Hadrons of 81%. I consider this a fairly successful model, as the Gammas accounted for 65% of my data, and the Hadrons 35%. The 10-fold cross validation score was also just under 89%, suggesting the model is reasonably well fit.
 
+As an additional exploration, I cut the data across several features, reducing my number of instances to about 5k, but almost completly removing all hadrons. The true positive rate for Gammas broke 99%, and the accuracy score was of course similarly high. While this is desirable to researchers in some instances, it would certainly not be useful in contexts where there was interest in a full spectrum of Gammas. 
+
 Despite considerable efforts in hyperparameter optimization, the only measure that seemed to improve model performance beyond the default setting was for tree count. This was suggested in one study, and observed here, to optimize at 50 trees. 
 
 To improve this model further, I would purchase more data and research with the express hope of finding more on attribution creation.
