@@ -14,4 +14,4 @@ As an additional exploration, I cut the data across several features, reducing m
 
 Despite considerable efforts in hyperparameter optimization, the only measure that seemed to improve model performance beyond the default setting was for tree count. This was suggested in one study, and observed here, to optimize at 50 trees. 
 
-To improve this model further, I would purchase more data and research with the express hope of finding more on attribution creation.
+To improve this model further, I would purchase more data and research with the express hope of finding more on attribute creation.
