@@ -1,6 +1,6 @@
 # Gamma | Hadron Classification
 
-App: https://gamma-hadron.herokuapp.com. Just save the g_h_1.json file to you console and upload to the app for a prediction. This can be done for any of the instances given in the original data set, provided they're saved as a .json. 
+App: https://gamma-hadron.herokuapp.com. Just save the g_h_1.json file to your computer and upload to the app for a prediction. This can be done for any of the instances given in the original data set, provided they're saved as a .json. 
 
 This project details a method of improving Gamma research efficiency through the use of a Random Forest Classifier. 
 
