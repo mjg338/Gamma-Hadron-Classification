@@ -1,5 +1,7 @@
 # Gamma | Hadron Classification
 
+App: https://gamma-hadron.herokuapp.com. Just save the g_h_1.json file to you console and upload to the app for a prediction. This can be done for any of the instances given in the original data set, provided they're saved as a .json. 
+
 This project details a method of improving Gamma research efficiency through the use of a Random Forest Classifier. 
 
 The experimentation itself requires a Cherenkov telescope, a device which uses an imaging technique to detect atmospheric Gamma rays and consequent Hadron showers, or "Cherenkov Light."
