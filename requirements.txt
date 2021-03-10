@@ -1,0 +1,6 @@
+Flask
+gunicorn
+
+numpy==1.19.2
+pandas
+sklearn
